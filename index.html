@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Interactive Form</h1>
+            <p>Programming opens a world of opportunities. Join the journey and explore your potential!</p>
+            <form id="userForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="username" placeholder="Enter your Name" required>
+                <input type="email" id="name" name="useremail" placeholder="Enter your Email" required>
+                <input type="password" id="name" name="userpassword" placeholder="Enter your Password" required>
+
+                <label>Favorite Programming Language:</label>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="python" name="language" value="Python">
+                        <label for="python">Python</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="javascript" name="language" value="JavaScript">
+                        <label for="javascript">Html</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="java" name="language" value="Java">
+                        <label for="java">Java</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="java" name="language" value="Java">
+                        <label for="java">PHP</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="java" name="language" value="Java">
+                        <label for="java">Swift</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="java" name="language" value="Java">
+                        <label for="java">Sql</label>
+                    </div>
+
+                </div>
+
+                <label>Hobbies:</label>
+                <div class="checkbox-group">
+                    <div>
+                        <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                        <label for="coding">Coding</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                        <label for="reading">Reading</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+                        <label for="gaming">Gaming</label>
+                    </div>
+                </div>
+
+                <label for="friends">Select Your Friends:</label>
+                <select id="friends" size="4" multiple>
+                    <option>Ali</option>
+                    <option>Ahmed</option>
+                    <option>Mohamed</option>
+                    <option>Adam</option>
+                </select>
+
+                <label for="comments">Write your option</label>
+                <textarea id="comments" rows="4"></textarea>
+
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
